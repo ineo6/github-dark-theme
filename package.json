@@ -1,6 +1,6 @@
 {
   "name": "@ineo6/github-dark-theme",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "GitHub dark theme for Extension GitMaster, extracted from poychang/github-dark-theme",
   "main": "",
   "scripts": {
