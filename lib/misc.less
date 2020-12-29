@@ -1,0 +1,228 @@
+/* # Insights Pulse */
+
+.summary-stats li {
+    border-color: @border-color !important;
+
+    a:hover {
+        background-color: #414650 !important;
+    }
+
+    .num {
+        color: @text-color !important;
+    }
+}
+
+.graph-canvas .axis {
+    line {
+        stroke: @file-row-active-bg !important;
+    }
+
+    text {
+        fill: @text-color !important;
+    }
+}
+
+.diffstat-summary strong {
+    color: @text-color !important;
+}
+
+/* # Insights Contributors */
+
+.tint-box {
+    background: @comment-bg !important;
+}
+
+.capped-card-content {
+    background: @comment-bg !important;
+}
+
+/* # Insights Traffic */
+
+.boxed-group-inner {
+    color: @text-color !important;
+}
+
+table.capped-list {
+    th {
+        background-color: @bg-color !important;
+        border-bottom: 1px solid @border-color !important;
+    }
+    tr:nth-child(even) {
+        background-color: @bg-color !important;
+    }
+    td {
+        border-bottom: 1px solid @border-color !important;
+    }
+}
+
+.traffic-graph-stats {
+    border-top: 1px solid @border-color !important;
+}
+
+/* # Insights Forks */
+
+.network .current-repository {
+    background-color: @private-bg !important;
+}
+
+img.network-tree {
+    filter: invert(1);
+    mix-blend-mode: lighten;
+}
+
+.js-network-graph-container {
+    filter: invert(1);
+    mix-blend-mode: lighten;
+}
+
+.js-network-graph-container canvas {
+    background: #f9f9f9;
+}
+
+/* Marketplace */
+
+.MarketplaceSideNav {
+    background-color: @bg-color !important;
+}
+
+/* Upgrade your plan */
+
+.radio-label {
+    color: @text-color !important;
+}
+
+.bg-gray.bg-gray {
+    background-color: @dropdown-bg !important;
+}
+
+.bg-gray-light {
+    background-color: @tag-bg-color !important;
+}
+
+.token-scope {
+    color: @bright-text-color !important;
+}
+
+.access-token .token-description {
+    color: @link-color !important;
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    margin: 2px 0 2px 0;
+    background-color: @scrollbar-track;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: @scrollbar-thumb;
+}
+
+/* Lock Icon - always gold */
+.octicon.octicon-lock {
+    color: #dbab09 !important;
+}
+
+.octicon.octicon-link {
+    color: @link-color !important;
+}
+
+/* Suggestions dropdown (i.e. Emoji Picker) */
+.suggester {
+    background-color: @bg-color !important;
+    border-color: @border-color !important;
+
+    li {
+        border-bottom: 1px solid @border-color !important;
+    }
+}
+
+.jump-to-suggestion-name mark {
+    color: @bright-text-color !important;
+}
+
+/* Emoji Picker-specific */
+.js-emoji-picker {
+    .js-emoji-button {
+        background-color: transparent !important;
+        color: @link-color !important;
+        justify-content: center !important;
+
+        &:hover {
+            background: @button-bg-image-hover !important;
+        }
+
+        &.selected-emoji {
+            background: @button-active-color !important;
+        }
+    }
+}
+
+/* Settings */
+.qr-code-table {
+    background-color: white !important;
+}
+
+/* Sponsors notice | Issue-#140 */
+.js-notice{
+    background: @bg-color !important;
+}
+
+.js-notice-dismiss {
+    background-color: @block-bg !important;
+}
+
+/* Invite teammates | Issue-#163 */
+#search-member {
+    background-color: @block-bg !important;
+    color: @bright-text-color !important;
+    border-color: @border-color !important;
+}
+
+/* Side Nav */
+.SideNav {
+    background-color: @block-bg;
+
+    .SideNav-item {
+        background-color: @block-bg !important;
+        border-color: @border-color !important;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: #414650 !important;
+        }
+
+        &.selected {
+            background-color: #24292e !important;
+        }
+    }
+}
+
+/* Github actions success/failure indicator */
+.octicon-check-circle-fill {
+    color: @text-green-color !important;
+}
+
+/* Various Buttons: "Code" dropdown links, etc */
+.UnderlineNav-item {
+    color: inherit !important;
+}
+
+/* Saved replies Write header */
+.js-write-tab, .js-preview-tab {
+    background-color: @dropdown-bg !important;
+}
+
+/* Footer text */
+strong {
+    color: @text-color !important;
+}

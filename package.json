@@ -1,0 +1,43 @@
+{
+  "name": "@ineo6/github-dark-theme",
+  "version": "0.9.0",
+  "description": "GitHub dark theme for Extension GitMaster, extracted from poychang/github-dark-theme",
+  "main": "",
+  "scripts": {
+    "make": "node ./bin/update.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ineo6",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ineo6/github-dark-theme.git"
+  },
+  "keywords": [
+    "github",
+    "dark",
+    "theme",
+    "css",
+    "less"
+  ],
+  "bugs": {
+    "url": "https://github.com/ineo6/github-dark-theme/issues"
+  },
+  "homepage": "https://github.com/ineo6/github-dark-theme#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.0.0",
+    "glob": "^7.1.6",
+    "gonzales-pe": "^4.3.0",
+    "less": "^4.0.0",
+    "less-plugin-sass2less": "^1.2.0",
+    "log-symbols": "^4.0.0",
+    "ora": "^4.0.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}

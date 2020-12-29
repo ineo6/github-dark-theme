@@ -1,0 +1,55 @@
+body {
+    .task-progress .progress-bar {
+        background-color: @faded-link-color !important;
+    }
+
+    .task-progress .progress-bar .progress {
+        background-color: @link-color !important;
+    }
+
+    .task-progress .task-progress-counts {
+        color: @text-color !important;
+    }
+
+    .new-label {
+        background-color: @comment-bg !important;
+
+        .js-new-label-color {
+            color: @link-color !important;
+        }
+    }
+
+    .TimelineItem-body {
+        color: @text-color !important;
+    }
+
+    .TimelineItem-break {
+        background-color: @bg-color !important;
+        border-color: @border-color !important;
+    }
+
+    .TimelineItem:before,
+    .commits-listing:before,
+    .profile-timeline.discussion-timeline:before {
+        background-color: @comment-bg;
+    }
+
+    .TimelineItem-badge,
+    .discussion-item-icon {
+        background-color: @comment-bg;
+        border-color: @bg-color;
+        color: @text-color;
+    }
+
+    .js-reviewed-toggle.bg-blue-2 {
+        background-color: @bg-color !important;
+    }
+
+    .comment-reactions {
+        border-top: 1px solid @border-color !important;
+
+        .reaction-summary-item {
+            border-right: 1px solid @border-color !important;
+        }
+    }
+}

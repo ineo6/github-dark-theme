@@ -1,0 +1,249 @@
+.steps li {
+    background-color: @comment-bg !important;
+    color: @text-color !important;
+}
+
+.setup-info-module {
+    background-color: @comment-bg !important;
+}
+
+.autocomplete-results {
+    background: @dropdown-bg !important;
+
+    .member-suggestion {
+        .member-suggestion-info {
+            .member-login {
+                color: @bright-text-color !important;
+            }
+
+            .member-name {
+                color: @text-color !important;
+            }
+        }
+    }
+}
+
+.Box-row--gray {
+    background-color: @comment-bg !important;
+}
+
+.menu-heading {
+    color: @text-color !important;
+    background-color: @head-bg !important;
+}
+
+.project-header {
+    background-color: @head-bg !important;
+}
+
+.project-column {
+    background-color: @head-bg !important;
+}
+
+.project-pane {
+    background-color: @head-bg !important;
+}
+
+.project-card {
+    background-color: @comment-bg !important;
+}
+
+.oauth-application-whitelist .request-info strong {
+    color: @text-color !important;
+}
+
+.Subhead-description {
+    color: @faded-link-color !important;
+}
+
+.SelectMenu {
+    .SelectMenu-modal {
+        border: 1px solid @border-color !important;
+
+        .SelectMenu-header {
+            background-color: @bg-color !important;
+            border-bottom: 1px solid @tag-bg-color !important;
+        }
+        .SelectMenu-item {
+            color: @link-color-selected !important;
+            background-color: @block-bg !important;
+            border-bottom: 1px solid @border-color !important;
+            &:hover {
+                background: lighten(@block-bg, 10%) !important;
+            }
+        }
+        .SelectMenu-list {
+            border-top: 1px solid @border-color !important;
+        }
+        .SelectMenu-divider {
+            background-color: @bg-color !important;
+            border: 1px solid @border-color !important;
+        }
+        .SelectMenu-closeButton:hover {
+            color: @bright-text-color !important;
+        }
+
+        footer {
+            border-top: 1px solid @border-color !important;
+            background-color: @bg-color !important;
+            color: @bright-text-color !important;
+        }
+    }
+
+    /* For select menus with tabs, like the branch selector */
+    .SelectMenu-filter,
+    .SelectMenu-tabs,
+    .SelectMenu-list,
+    .SelectMenu-modal,
+    .SelectMenu-message {
+        background: @block-bg !important;
+        box-shadow: none;
+    }
+
+    .SelectMenu-filter {
+        border-color: @block-bg !important;
+    }
+
+    .SelectMenu-tab {
+        color: @text-color !important;
+        box-shadow: none;
+
+        &[aria-selected='true'] {
+            background: @block-bg !important;
+            border-color: @tag-bg-color !important;
+        }
+
+        &:hover {
+            color: @text-color !important;
+            background: lighten(@block-bg, 10%) !important;
+        }
+    }
+}
+
+.select-menu-header .select-menu-title {
+    color: @text-color !important;
+}
+.select-menu-list {
+    background-color: @dropdown-bg !important;
+    border-color: @border-color !important;
+
+    .SelectMenu-message {
+        background: @block-bg !important;
+        border-bottom: 1px solid @border-color !important;
+    }
+    .SelectMenu-item {
+        color: @link-color-selected !important;
+        background-color: @block-bg !important;
+        border-bottom: 1px solid @border-color !important;
+        &:hover {
+            background: lighten(@block-bg, 10%) !important;
+        }
+    }
+}
+.select-menu-divider,
+.select-menu-header,
+.select-menu-filters {
+    color: @text-color !important;
+    background-color: @dropdown-bg !important;
+    border-color: @border-color !important;
+}
+.select-menu-item.selected {
+    color: @link-color-selected !important;
+}
+.select-menu-item {
+    color: @link-color-selected !important;
+    border-color: @border-color !important;
+    background-color: @dropdown-bg !important;
+    &:hover,
+    &:focus {
+        background-color: @file-row-active-bg !important;
+    }
+    &.navigation-focus {
+        background-color: @border-color !important;
+        .description-inline,
+        &.select-menu-action,
+        &.selected {
+            background-color: @border-color !important;
+        }
+    }
+
+    .select-menu-item-text pre {
+        color: @text-color !important;
+    }
+}
+.label-select-menu .select-menu-item.js-navigation-item.selected {
+    background: @tag-bg-color !important;
+}
+.select-menu-modal {
+    border: 1px solid @border-color !important;
+    color: @text-color !important;
+    background: @dropdown-bg !important;
+}
+.select-menu-tabs {
+    border-color: @border-color !important;
+
+    .select-menu-tab-nav.selected,
+    .select-menu-tab-nav[aria-selected='true'],
+    a.selected {
+        background-color: @dropdown-bg !important;
+        color: @link-color-selected !important;
+        border-color: @border-color !important;
+    }
+    .select-menu-tab-nav:hover,
+    a:hover {
+        color: @link-color-selected !important;
+    }
+    .select-menu-tab-nav[aria-selected='true'] {
+        border-bottom-color: @dropdown-bg !important;
+    }
+}
+.select-menu-text-filter input {
+    border-color: @border-color !important;
+}
+.select-menu-text-filter:first-child:last-child {
+    background-color: @dropdown-bg !important;
+    border-color: @border-color !important;
+}
+
+.height-full label,
+.width-full label,
+.d-flex label,
+.flex-column label,
+.text-center label,
+.text-normal label {
+    background-color: transparent !important;
+    color: @text-color !important;
+}
+
+.signup-plan-card {
+    border: none !important;
+}
+
+.signup-prompt {
+    background-color: @tag-bg-color !important;
+}
+
+.signup-prompt-bg {
+    background-color: @tag-bg-color !important;
+    background-image: none !important;
+}
+
+.pricing-matrix-column-tier {
+    background-color: @bg-color !important;
+    color: @text-color !important;
+}
+
+.invite-team-member-list {
+    border: 1px solid @border-color !important;
+    border-bottom: 1px solid @border-color !important;
+    .team-row-header {
+        background: @dropdown-bg !important;
+    }
+    .team-name {
+        color: @text-color !important;
+    }
+}
+
+.add-member-team-list .team:first-child {
+    border-top: 0px solid @border-color !important;
+}
