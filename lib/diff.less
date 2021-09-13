@@ -55,6 +55,10 @@ tr:not(.blob-expanded) + .blob-expanded .blob-num {
     border-right: 1px solid @border-color !important;
 }
 
+.blob-num-context, .blob-code-context {
+    background-color: @bg-color !important;
+}
+
 .blob-num {
     border-right: 1px solid @border-color !important;
 }
@@ -95,3 +99,30 @@ tr:not(.blob-expanded) + .blob-expanded .blob-num {
     }
 }
 
+.js-suggested-changes-blob {
+    .blob-num-addition {
+        background-color: @diff-addition !important;
+        border-color: @border-color !important;
+    }
+
+    .blob-code-addition {
+        background-color: @diff-addition !important;
+        .x {
+            color: @diff-accent-font-color !important;
+            background-color: @diff-addition-accent !important;
+        }
+    }
+
+    .blob-num-deletion {
+        background-color: @diff-deletion !important;
+        border-color: @border-color !important;
+    }
+
+    .blob-code-deletion {
+        background-color: @diff-deletion !important;
+        .x {
+            color: @diff-accent-font-color !important;
+            background-color: @diff-deletion-accent !important;
+        }
+    }
+}

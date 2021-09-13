@@ -40,17 +40,12 @@ code {
 
     table {
         tr {
-            background-color: #222 !important;
+            background-color: @dropdown-bg !important;
             border-color: @border-color !important;
-
-            &:nth-child(2n) {
-                background-color: #090705 !important;
-                border-color: @border-color !important;
-            }
         }
-
         td,
         th {
+            background-color: @dropdown-bg !important;
             border-color: @border-color !important;
         }
     }
@@ -61,5 +56,15 @@ code {
 
     &.comment-body {
         border-bottom-color: @border-color !important;
+    }
+}
+
+.markdown-body.width-full {
+    table {
+        th,
+        tr,
+        td {
+            background-color: transparent !important;
+        }
     }
 }
